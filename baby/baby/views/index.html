@@ -255,11 +255,12 @@
                                 <input type="email" class="form-control" required  name="email" id="email" placeholder="请输入您的电子邮箱" value="{{email}}">
                             </div>
                             <div class="form-wrap-group border-left-transparent">
-                                <input type="text" class="form-control" required  name="text" id="text" placeholder="请输入您的验证码" value="">
+                                <input type="text" class="form-control" required  name="valid" id="valid" placeholder="请输入您的验证码" value="">
                             </div>
                             <div class="form-wrap-group border-left-transparent">
                                 <img src="http://jackson.baby.com/image/validata" id="getcode_num" title="看不清，点击换一张" align="absmiddle">
                             </div>
+                                <input type="hidden" name="token" id="token" value="{{token}}">
                             <div class="form-wrap-group">
                                 <button type="submit" class="btn-danger btn-md btn-block">提交</button>
                             </div>
