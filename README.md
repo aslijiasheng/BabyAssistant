@@ -1,4 +1,7 @@
 # BabyAssistant-node
+
+[![Gitter](https://badges.gitter.im/aslijiasheng/BabyAssistant-php-platform.svg)](https://gitter.im/aslijiasheng/BabyAssistant-php-platform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 >---
 - **[Introduction](#introduction)**
 - **[Rely](#rely)**
@@ -15,7 +18,7 @@ It is not a complete project, need rely [BabyAssistant-php-platform](https://git
 
 ## Rely
 
-* express
+* [express](http://expressjs.com/)
 * twig
 * node
 
